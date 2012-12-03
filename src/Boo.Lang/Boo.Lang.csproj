@@ -97,6 +97,7 @@
     <Compile Include="AbstractGeneratorEnumerator.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="BooComparer.cs" />
+    <Compile Include="BooEqualityComparers.cs" />
     <Compile Include="BooHashCodeProvider.cs" />
     <Compile Include="Builtins.cs" />
     <Compile Include="DuckTypedAttribute.cs" />
@@ -112,7 +113,6 @@
     <Compile Include="Environments\IEnvironment.cs" />
     <Compile Include="Environments\InstantiatingEnvironment.cs" />
     <Compile Include="Environments\My.cs" />
-    <Compile Include="ExtensionAttribute.cs" />
     <Compile Include="GenericGenerator.cs" />
     <Compile Include="GenericGeneratorEnumerator.cs" />
     <Compile Include="GenericList.cs" />
