@@ -799,10 +799,10 @@ namespace Boo.Lang.Compiler
 		{
 			return Instantiate("BCE0143", node, LanguageAmbiance.EnsureKeyword);
 		}
-		
+
 		public static CompilerError Obsolete(Node node, IMember member, string message)
 		{
-			return Instantiate("BCE0144", node, member, message);
+			return Instantiate("BCE0144", node, (object) member ?? node, message);
 		}
 
 		public static CompilerError InvalidExceptArgument(Node node, IType exceptionType)
